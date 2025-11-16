@@ -166,9 +166,8 @@
     </style>
 </head>
 <body>
-    <!-- Step 3: SelectStatView.jsp displays itself to the staff -->
     <div class="navbar">
-        <div class="navbar-brand">🏪 Supermarket Management</div>
+        <div class="navbar-brand">ALONG Supermarket</div>
         <div class="navbar-user">
             <div class="user-info">
                 <div class="user-avatar">
@@ -188,27 +187,10 @@
             <div class="card-header">Select Statistics Type</div>
             
             <div class="menu-grid">
-                <!-- Step 4: The staff clicks on View customer statistics function -->
-                <!-- Step 5: SelectStatView.jsp page calls the CustomerStatView.jsp page -->
                 <a id="btnCustomerStat" href="<%= request.getContextPath() %>/views/ManagementStaff/CustomerStatView.jsp" class="menu-item">
                     <div class="menu-icon">👤</div>
                     <div class="menu-title">Customer Statistics</div>
                 </a>
-                
-                <div id="btnItemStat" class="menu-item">
-                    <div class="menu-icon">💰</div>
-                    <div class="menu-title">Revenue Statistics</div>
-                </div>
-                
-                <div class="menu-item">
-                    <div class="menu-icon">📊</div>
-                    <div class="menu-title">Product Statistics</div>
-                </div>
-                
-                <div id="btnSalesStat" class="menu-item">
-                    <div class="menu-icon">📈</div>
-                    <div class="menu-title">Sales Statistics</div>
-                </div>
             </div>
         </div>
     </div>

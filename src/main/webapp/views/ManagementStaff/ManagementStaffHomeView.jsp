@@ -137,9 +137,8 @@
     </style>
 </head>
 <body>
-    <!-- Step 1: Main Management Staff interface (ManagementHomeView.jsp) -->
     <div class="navbar">
-        <div class="navbar-brand">🏪 Supermarket Management</div>
+        <div class="navbar-brand">ALONG Supermarket</div>
         <div class="navbar-user">
             <div class="user-avatar">
                 <%= loggedInStaff.getFullname().substring(0, 1).toUpperCase() %>
@@ -154,27 +153,10 @@
             <div class="card-header">Management Home</div>
             
             <div class="menu-grid">
-                <!-- Step 1: Staff clicks on the view statistics function -->
-                <!-- Step 2: ManagementHomeView.jsp calls SelectStatView.jsp -->
                 <a id="btnViewStat" href="<%= request.getContextPath() %>/views/ManagementStaff/SelectStatView.jsp" class="menu-item">
                     <div class="menu-icon">📈</div>
                     <div class="menu-title">View Statistics</div>
                 </a>
-                
-                <div class="menu-item">
-                    <div class="menu-icon">👥</div>
-                    <div class="menu-title">Manage Staff</div>
-                </div>
-                
-                <div class="menu-item">
-                    <div class="menu-icon">📦</div>
-                    <div class="menu-title">Inventory Management</div>
-                </div>
-                
-                <div class="menu-item">
-                    <div class="menu-icon">🧾</div>
-                    <div class="menu-title">Order Management</div>
-                </div>
             </div>
         </div>
     </div>

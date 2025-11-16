@@ -14,7 +14,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: url('<%= request.getContextPath() %>/images/back1.png') no-repeat center center;
+            background: url('<%= request.getContextPath() %>/images/back1.png') no-repeat center center fixed;
             background-size: cover;
             min-height: 100vh;
             display: flex;
