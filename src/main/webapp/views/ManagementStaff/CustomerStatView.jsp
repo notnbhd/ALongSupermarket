@@ -251,7 +251,7 @@
 </head>
 <body>
     <div class="navbar">
-        <div class="navbar-brand">🏪 Supermarket Management</div>
+        <div class="navbar-brand">ALONG Supermarket</div>
         <div class="navbar-user">
             <div class="user-info">
                 <div class="user-avatar">
